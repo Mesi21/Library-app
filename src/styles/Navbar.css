@@ -1,0 +1,26 @@
+.f-row {
+  display: flex;
+  flex-direction: row;
+}
+
+#nav {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid rgb(91, 126, 155);
+}
+
+#left-nav li {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 0 30px;
+  color: #000;
+}
+
+#user {
+  height: 25px;
+  width: 25px;
+  margin: 0 20px;
+  border-radius: 50%;
+  color: rgb(107, 168, 187);
+}
